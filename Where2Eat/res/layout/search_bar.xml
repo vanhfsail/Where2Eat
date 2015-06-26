@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_action"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/base_action_bar_height"
+    android:background="@color/base_actionbar_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_back_selector" />
+
+    <EditText
+        android:id="@+id/et_searchtext"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/base_edit_input"
+        android:drawableLeft="@drawable/search_icon"
+        android:hint="输入您想查询的餐厅名称"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_search_selector" />
+
+</RelativeLayout>

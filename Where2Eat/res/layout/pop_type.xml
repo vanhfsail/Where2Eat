@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="全部"
+            android:onClick="clickBtn"
+            android:textColor="@color/theme_color" />
+
+        <Button
+            android:id="@+id/btn1"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="蛋糕甜点" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn2"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="火锅" />
+
+        <Button
+            android:id="@+id/btn3"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="自助餐" />
+
+        <Button
+            android:id="@+id/btn4"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="小吃快餐" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn5"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="日韩料理" />
+
+        <Button
+            android:id="@+id/btn6"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="西餐" />
+
+        <Button
+            android:id="@+id/btn7"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="聚餐宴请" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn8"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="烧烤烤肉" />
+
+        <Button
+            android:id="@+id/btn9"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="川湘菜" />
+
+        <Button
+            android:id="@+id/btn10"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="香锅烤鱼" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn11"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="粤菜" />
+
+        <Button
+            android:id="@+id/btn12"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="中式烧烤" />
+
+        <Button
+            android:id="@+id/btn13"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="西北菜" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn14"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="咖啡酒吧" />
+
+        <Button
+            android:id="@+id/btn15"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="云贵菜" />
+
+        <Button
+            android:id="@+id/btn16"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="东北菜" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn17"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="东南亚菜" />
+
+        <Button
+            android:id="@+id/btn18"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="新疆菜" />
+
+        <Button
+            android:id="@+id/btn19"
+             android:onClick="clickBtn"
+            style="@style/Where2Eat.TextView._Black"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_pop_bg_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="台湾菜" />
+    </LinearLayout>
+
+</LinearLayout>

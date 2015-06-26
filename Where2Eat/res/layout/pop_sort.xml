@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_moren"
+        android:onClick="sortClick"
+        style="@style/Where2Eat.TextView._Black"
+        android:layout_width="match_parent"
+        android:background="@drawable/base_pop_bg_selector"
+        android:padding = "10dp"
+        android:gravity="left"
+        android:text="默认排序"
+        android:textColor="@color/theme_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <Button
+        android:id="@+id/btn_pingfen"
+         android:onClick="sortClick"
+        style="@style/Where2Eat.TextView._Black"
+        android:layout_width="match_parent"
+        android:background="@drawable/base_pop_bg_selector"
+        android:padding = "10dp"
+        android:gravity="left"
+        android:text="评分从高到低" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    
+
+    <Button
+        android:id="@+id/btn_jiagejiang"
+         android:onClick="sortClick"
+        style="@style/Where2Eat.TextView._Black"
+        android:layout_width="match_parent"
+        android:background="@drawable/base_pop_bg_selector"
+        android:padding = "10dp"
+        android:gravity="left"
+        android:text="价格从高到低" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <Button
+        android:id="@+id/btn_jiagesheng"
+         android:onClick="sortClick"
+        style="@style/Where2Eat.TextView._Black"
+        android:layout_width="match_parent"
+        android:background="@drawable/base_pop_bg_selector"
+        android:padding = "10dp"
+        android:gravity="left"
+        android:text="价格从低到高" />
+
+</LinearLayout>
